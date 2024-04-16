@@ -1,5 +1,3 @@
 .DS_Store
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-agent_private.py
-experiment_private.ipynb
