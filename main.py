@@ -30,10 +30,10 @@ def main():
         st.error("OPENAI_API_KEY is not set")
         st.stop()
 
-    st.set_page_config(page_title="Ask Ask")
+    st.set_page_config(page_title="ChatCSV")
     st.header("Ask CSV 📈")
 
-    file = st.file_uploader("Upload a CSV or excel file", type=["csv"])
+    file = st.file_uploader("Upload a CSV file", type=["csv"])
     
     if file is not None:
             
