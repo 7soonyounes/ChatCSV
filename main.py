@@ -26,7 +26,7 @@ def main():
 
     load_dotenv(find_dotenv())
 
-    if not os.getenv("AZURE_OPENAI_API_KEY"):
+    if not os.getenv("OPENAI_API_KEY"):
         st.error("OPENAI_API_KEY is not set")
         st.stop()
 
